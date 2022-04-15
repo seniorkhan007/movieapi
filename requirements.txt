@@ -17,7 +17,7 @@ docker==5.0.3
 docker-compose==1.29.2
 dockerpty==0.4.1
 docopt==0.6.2
-drf-yasg==1.20.0
+drf-yasg2==1.19.4
 idna==3.3
 inflection==0.5.1
 itypes==1.2.0
