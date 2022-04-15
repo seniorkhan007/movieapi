@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   run-test:
-    runs-on: ubuntu-lantest
+    runs-on: ubuntu-latest
     env:
       DJANGO_SETTINGS_MODULE: netflix.settings
     steps:
