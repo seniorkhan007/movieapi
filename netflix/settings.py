@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'django_filters',
-    'drf_yasg2',
+    'drf_yasg',
 
     'studio',
 ]
@@ -84,11 +84,10 @@ WSGI_APPLICATION = 'netflix.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('POSTGRES_NAME'),
+        'NAME': os.environ.get('POSTGRES_DB'),
         'USER': os.environ.get('POSTGRES_USER'),
         'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-        'HOST': 'localhost',
+        'HOST': os.environ.get('POSTGRES_HOST'),
         'PORT': '5432',
     }
 }
