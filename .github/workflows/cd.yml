@@ -41,6 +41,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: 46.101.96.67
+          p: 12345
           key: ${{ secrets.KEY }}
           username: root
           script: |
