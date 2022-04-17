@@ -8,7 +8,7 @@ from rest_framework.permissions import AllowAny
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Movie Application Rest API",
+        title="Movie API",
         default_version="v1.0.01",
         description="Swagger docs for RestAPI",
         contact=openapi.Contact("Anvarov Ziyodulloxon <example_name@gmail.com>")
