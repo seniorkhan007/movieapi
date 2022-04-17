@@ -43,7 +43,6 @@ jobs:
           host: 46.101.96.67
           key: ${{ secrets.KEY }}
           username: root
-          password: 12345
           script: |
             cd movieapi
             git pull
