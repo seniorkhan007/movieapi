@@ -34,7 +34,7 @@ jobs:
       run: |
         python manage.py test
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: debain-latest
     needs: build
     steps:
       - name: executing remote ssh commands using password
